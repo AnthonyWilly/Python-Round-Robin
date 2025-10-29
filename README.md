@@ -45,6 +45,13 @@ processosExemplo = [
 roundRobin(processosExemplo)
 ```
 
+
+### 🎯 Próximos Objetivos
+
+* Implementar **Estados Bloqueados** (para simular I/O).
+* Adicionar **Prioridade Dinâmica** aos processos.
+
+
 ---
 
 # Round-Robin CPU Scheduling Simulator
@@ -91,3 +98,13 @@ processosExemplo = [
 
 roundRobin(processosExemplo)
 ```
+
+### 🎯 Future Goals
+
+* Implement **Blocked States** (to simulate I/O).
+* Add **Dynamic Priority** to processes.
+
+
+
+### 👨‍💻 Autor / Author
+* Anthony Willy
