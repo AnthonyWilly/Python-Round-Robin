@@ -37,8 +37,8 @@ timeSlice = 3
 
 #Processos simulados
 processosExemplo = [
-    Processo(pid=101, tempoChegada=0, tempoExecucao=12),
-    Processo(pid=102, tempoChegada=2, tempoExecucao=8),
+    Processo(pid=101, tempoChegada=0, totalLinhas=12, pcInicial=1000),
+    Processo(pid=102, tempoChegada=2, totalLinhas=8, pcInicial=2000),
     # ... adicione mais processos ...
 ]
 
@@ -91,8 +91,8 @@ timeSlice = 3
 
 #Simulated processes
 processosExemplo = [
-    Processo(pid=101, tempoChegada=0, tempoExecucao=12),
-    Processo(pid=102, tempoChegada=2, tempoExecucao=8),
+    Processo(pid=101, tempoChegada=0, totalLinhas=12, pcInicial=1000),
+    Processo(pid=102, tempoChegada=2, totalLinhas=8, pcInicial=2000),
     # ... add more processes ...
 ]
 
