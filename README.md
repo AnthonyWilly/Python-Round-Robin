@@ -6,7 +6,7 @@ Este repositório contém um script Python simples que simula o algoritmo **Roun
 
 A simulação demonstra visualmente como a CPU aloca uma "fatia de tempo" (quantum) para cada processo em uma fila circular, e como o contexto de um processo (como o Program Counter e registradores) é salvo e restaurado durante a troca de contexto.
 
-## 🚀 Como Executar
+## Como Executar
 
 1.  Garanta que você tenha o [Python 3](https://www.python.org/) instalado.
 2.  Clone este repositório ou salve o arquivo `.py` em seu computador.
@@ -17,7 +17,7 @@ A simulação demonstra visualmente como a CPU aloca uma "fatia de tempo" (quant
     python SimpleRoundRobinSimulator.py
     ```
 
-## 🛠️ Como Funciona
+## Como Funciona
 
 O script é composto por três componentes principais:
 
@@ -25,7 +25,7 @@ O script é composto por três componentes principais:
 * **`Classe CPU`**: Simula a CPU, com métodos para `carregarContexto` e `salvarContexto` de um processo.
 * **`Função roundRobin`**: É o escalonador principal. Ele gerencia a fila de prontos (usando `array.array` como uma fila circular FIFO) e o loop principal da simulação, decidindo quem executa e quando realizar a troca de contexto.
 
-### ⚙️ Configuração
+### Configuração
 
 Você pode alterar os processos de teste e a fatia de tempo modificando as variáveis no final do script:
 
@@ -46,7 +46,7 @@ roundRobin(processosExemplo)
 ```
 
 
-### 🎯 Próximos Objetivos
+### Próximos Objetivos
 
 * Implementar **Estados Bloqueados** (para simular I/O).
 * Adicionar **Prioridade Dinâmica** aos processos.
@@ -60,7 +60,7 @@ This repository contains a simple Python script that simulates the **Round-Robin
 
 The simulation visually demonstrates how the CPU allocates a "time slice" (quantum) to each process in a circular queue, and how a process's context (like the Program Counter and registers) is saved and restored during a context switch.
 
-## 🚀 How to Run
+## How to Run
 
 1.  Ensure you have [Python 3](https://www.python.org/) installed.
 2.  Clone this repository or save the `.py` file to your computer.
@@ -71,7 +71,7 @@ The simulation visually demonstrates how the CPU allocates a "time slice" (quant
     python SimpleRoundRobinSimulator.py
     ```
 
-## 🛠️ How It Works
+## How It Works
 
 The script is composed of three main components:
 
@@ -79,7 +79,7 @@ The script is composed of three main components:
 * **`CPU` Class**: Simulates the CPU, with methods to `carregarContexto` (load context) and `salvarContexto` (save context) for a process.
 * **`roundRobin` Function**: This is the main scheduler. It manages the ready queue (using `array.array` as a circular FIFO queue) and the main simulation loop, deciding who runs and when to perform a context switch.
 
-### ⚙️ Configuration
+### Configuration
 
 You can change the test processes and the quantum (time slice) by modifying the variables at the end of the script:
 
@@ -99,12 +99,12 @@ processosExemplo = [
 roundRobin(processosExemplo)
 ```
 
-### 🎯 Future Goals
+### Future Goals
 
 * Implement **Blocked States** (to simulate I/O).
 * Add **Dynamic Priority** to processes.
 
 
 
-### 👨‍💻 Autor / Author
+### Autor / Author
 * Anthony Willy
